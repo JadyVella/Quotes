@@ -8,7 +8,7 @@ This application helps one in time of discouragement to find encouraging quotes 
 The person who created this file and styled is Felix Ouma
 
 # setup instructions
-To run this app in your machine, just follow this link https://github.com/JadyVella/Life-Hacks
+To run this app in your machine, just follow this link https://jadyvella.github.io/Quotes/
 
 # BDD
 If you want to add your own quote you just fill in the form provided.
