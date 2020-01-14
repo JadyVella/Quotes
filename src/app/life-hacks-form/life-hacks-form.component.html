@@ -1,0 +1,28 @@
+<div class="container-fluid">
+    <h2 class="text-center">Create a new Quote</h2>
+    <hr>
+    <form (ngSubmit)="submitQuote()" #LifeHacksForm='ngForm'>
+        <div class="form-group">
+
+            <label for="author">Author</label>
+            <input type="text" required class="form-control" id="author" [(ngModel)]="newLifeHacks.author" name="author" #author='ngModel'>
+            <div [hidden]="author.valid || author.pristine" class="alert alert-danger">
+                <p>Author name is required</p>
+            </div>
+
+        </div>
+        <div class="form-group">
+
+            <label for="quote">Quote</label>
+            <textarea class="form-control" rows="4" required></textarea>
+
+        </div>
+        <div class="form-group">
+
+            <label for="name">Name</label>
+            <input type="text" id="name" required class="form-control" [(ngModel)]="newLifeHacks.name" name="name" required>
+
+        </div>
+        <button type="submit" class="btn btn-success">Add Quotes</button>
+    </form>
+</div>
