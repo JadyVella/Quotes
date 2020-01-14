@@ -7,11 +7,11 @@
       <div *ngFor='let quote of lifehacks; let i = index'>
         <div>
           <li>{{quote.quotes}}</li>
-          <!-- <button (click)='showDetails(i)' class="btn btn-primary">Show Details</button> -->
+          <button (click)='showDetails(i)' class="btn btn-primary">Show Details</button>
         </div>
 
         <div *ngIf='quote.showAuthor'>
-          <app-life-hacks-details (toDelete)='deleteGoal($event,i)'></app-life-hacks-details>
+          <!-- <app-life-hacks-details (toDelete)='deleteGoal($event,i)'></app-life-hacks-details> -->
         </div>
       </div>
     </div>
