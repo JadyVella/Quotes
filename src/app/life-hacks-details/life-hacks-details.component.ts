@@ -1,5 +1,5 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
-import { LifeHacks } from "../life-hacks"
+// import { LifeHacks } from "../life-hacks"
 
 @Component({
   selector: 'app-life-hacks-details',
