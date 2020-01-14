@@ -6,8 +6,8 @@
     <div class="col-md-6">
       <div *ngFor='let quote of lifehacks; let i = index'>
         <div>
-          <!-- <li>{{quote.quotes}}</li> -->
-          <button (click)='showDetails(i)' class="btn btn-primary">Show Details</button>
+          <li>{{quote.quotes}}</li>
+          <!-- <button (click)='showDetails(i)' class="btn btn-primary">Show Details</button> -->
         </div>
 
         <div *ngIf='quote.showAuthor'>
